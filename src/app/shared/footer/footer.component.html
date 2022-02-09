@@ -1,0 +1,100 @@
+<div class="footer-join-us">REJOINS NOUS</div>
+<footer class="footer has-cards">
+  <div class="container shape-container d-flex align-items-start">
+    <div class="col px-0">
+      <div class="row align-items-start justify-content-start">
+        <div class="col-lg-6 text-center">
+          <img
+            src="./assets/img/brand/google-2.png"
+            class="img-store"
+            alt="image de lien Google Play"
+          />
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <img
+            src="./assets/img/brand/apple-2.png"
+            class="img-store"
+            alt="image de lien Apple store"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row row-grid align-items-center my-md">
+      <div class="col-lg-6">
+        <h3 class="font-weight-bold mb-2 text-white">
+          Merci de nous soutenir !
+        </h3>
+        <h4 class="mb-0 font-weight-light text-white">
+          Rejoins nous sur l'une de ces plateformes.
+        </h4>
+      </div>
+      <div class="col-lg-6 text-lg-right btn-wrapper">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/company/yorgo/"
+          class="btn btn-neutral btn-icon-only btn-twitter btn-round"
+          ngbTooltip="Suivez-nous"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/YORGOHELLO"
+          class="btn btn-neutral btn-icon-only btn-facebook btn-round"
+          ngbTooltip="Suivez-nous"
+        >
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/yorgo_app/?hl=fr"
+          class="btn btn-neutral btn-icon-only btn-instagram btn-round"
+          ngbTooltip="Abonnez-nous"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.tiktok.com/@hello_yorgo"
+          class="btn btn-neutral btn-icon-only btn-github btn-round"
+          ngbTooltip="Abonnez-vous"
+        >
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+    <hr class="" />
+    <div class="row align-items-center justify-content-md-between">
+      <div class="col-md-6">
+        <div class="copyright">
+          Copyright &copy; {{ datenow | date: "yyyy" }}
+          <a
+            href="https://mythaelx.github.io/#/"
+            class="text-white font-weight-bold"
+            target="_blank"
+          >
+            Crée par Clément Even (co-fondateur)
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav nav-footer justify-content-end">
+          <li class="nav-item">
+            <a [routerLink]="['/GCU']" class="nav-link">GCU</a>
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/confidentialité']" class="nav-link"
+              >Politique de confidentialité</a
+            >
+          </li>
+          <li class="nav-item">
+            <a [routerLink]="['/contact']" class="nav-link">Nous contacter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

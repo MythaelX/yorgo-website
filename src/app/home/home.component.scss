@@ -1,0 +1,111 @@
+.rect-yorgo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+.padding-home {
+  padding-top: 4rem !important;
+}
+
+.padding-section {
+  padding: 4rem;
+}
+
+.img-home {
+  z-index: 50;
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+  top: 20px;
+  position: relative;
+  padding: 10px;
+  @media (min-width: 992px) {
+    margin-right: 0;
+    margin-left: 0;
+    position: absolute;
+    width: 90%;
+    right: 0;
+  }
+  @media (min-width: 1200px) {
+    margin-right: 0;
+    margin-left: 0;
+    position: absolute;
+    width: 100%;
+    right: 0;
+  }
+}
+
+.display-1 {
+  font-size: 1.3rem;
+  @media (min-width: 460px) {
+    font-size: 2rem;
+  }
+  @media (min-width: 1200px) {
+    font-size: 3rem;
+  }
+}
+
+.display-4 {
+  font-size: 1rem;
+  @media (min-width: 460px) {
+    font-size: 1.3rem;
+  }
+  @media (min-width: 1200px) {
+    font-size: 1.6rem;
+  }
+}
+
+.display-2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top: 1rem;
+  @media (min-width: 460px) {
+    font-size: 2.4rem;
+  }
+  @media (min-width: 1200px) {
+    font-size: 2.7rem;
+  }
+}
+
+.img-store {
+  width: 45%;
+}
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.padding-bottom {
+  padding-bottom: 1rem !important;
+}
+
+.padding-bottom-2 {
+  padding-bottom: 3rem !important;
+}
+
+.fill-blue {
+  fill: #3d92c2;
+}
+
+.background-blue {
+  background-color: #3d92c2;
+}
+
+.img-size-1 {
+  width: 35%;
+  @media (min-width: 992px) {
+    width: 50%;
+  }
+}
+
+.up-annim :hover {
+  transition: all 0.15s ease;
+  transform: translateY(-20px);
+}

@@ -1,0 +1,121 @@
+.section-hero {
+  @media (min-width: 768px) {
+    min-height: 0;
+  }
+}
+
+.section {
+  padding-bottom: 0;
+}
+
+.title {
+  top: -10px;
+  margin-bottom: -25px;
+
+  @media (min-width: 768px) {
+    top: -20px;
+    margin-bottom: -42px;
+  }
+}
+
+.img-size-1 {
+  width: 20%;
+  @media (min-width: 992px) {
+    width: 60%;
+  }
+}
+
+.up-annim :hover {
+  transition: all 0.15s ease;
+  transform: translateY(-20px);
+}
+
+.backgroundImage {
+  background-image: url("../../assets/img/brand/sport-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+  padding: 7rem;
+  @media (max-width: 991px) {
+    padding: 1rem;
+  }
+  padding-bottom: 1rem;
+  margin-top: -0.3rem;
+}
+
+.display-3 {
+  padding: 10px;
+  font-size: 0.8rem;
+  @media (min-width: 1090px) {
+    font-size: 0.9rem;
+  }
+  @media (min-width: 1200px) {
+    font-size: 1.2rem;
+  }
+}
+
+.display-2 {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  @media (min-width: 460px) {
+    font-size: 1rem;
+  }
+
+  @media (min-width: 537px) {
+    font-size: 1.4rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.9rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 2.7rem;
+  }
+}
+
+.section-shaped .shape {
+  height: 98%;
+  @media (min-width: 410px) {
+    height: 100%;
+  }
+}
+
+.black-border {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  height: 10px;
+  width: 100%;
+  background-color: black;
+
+  @media (max-width: 1200px) {
+    height: 8px;
+  }
+
+  @media (max-width: 767px) {
+    height: 6px;
+  }
+  @media (max-width: 535px) {
+    height: 4px;
+  }
+  @media (max-width: 375px) {
+    height: 3px;
+  }
+}
+
+.padding-top {
+  padding-top: 7rem;
+
+  @media (max-width: 991px) {
+    padding: 1rem;
+  }
+}
+
+.text-shadow {
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3), 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text-shadow-2 {
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.753), 0 2px 10px rgba(0, 0, 0, 0.795);
+}

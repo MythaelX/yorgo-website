@@ -7,11 +7,10 @@
       <img
         src="./assets/img/brand/YORGO_logo.png"
         class="img-fluid rounded-circle shadow"
-        style="height: 80px"
       />
     </a>
     <button
-      class="navbar-toggler"
+      class="navbar-toggler no-border"
       type="button"
       (click)="isCollapsed = !isCollapsed"
       [attr.aria-expanded]="!isCollapsed"
@@ -26,53 +25,36 @@
     >
       <ul class="navbar-nav">
         <li></li>
-        <li>
+        <li [routerLink]="['/accueil']">
           <a class="nav-link" role="button">
             <i class="fas fa-home d-lg-none"></i>
-            <span
-              [routerLink]="['/accueil']"
-              class="nav-link-inner--text family"
-              >Accueil</span
-            >
+            <span class="nav-link-inner--text family">Accueil</span>
           </a>
         </li>
-        <li>
+        <li [routerLink]="['/communaute']">
           <a class="nav-link no-caret" role="button">
             <i class="fas fa-universal-access d-lg-none"></i>
-            <span
-              [routerLink]="['/communaute']"
-              class="nav-link-inner--text family"
-              >Communauté</span
-            >
+            <span class="nav-link-inner--text family">Communauté</span>
           </a>
         </li>
-        <li>
+        <li [routerLink]="['/qui-sommes-nous']">
           <a class="nav-link no-caret" role="button">
             <i class="far fa-question-circle d-lg-none"></i>
-            <span
-              [routerLink]="['/qui-sommes-nous']"
-              class="nav-link-inner--text family"
-              >Qui sommes nous ?</span
-            >
+            <span class="nav-link-inner--text family">Qui sommes nous ?</span>
           </a>
         </li>
-        <li>
+        <li [routerLink]="['/contact']">
           <a class="nav-link no-caret" role="button">
             <i class="fas fa-envelope d-lg-none"></i>
-            <span
-              [routerLink]="['/contact']"
-              class="nav-link-inner--text family"
-              >Contact</span
-            >
+            <span class="nav-link-inner--text family">Contact</span>
           </a>
         </li>
-        <li>
+        <li (click)="isCollapsed = !isCollapsed">
           <div class="row close-button">
             <div class="col-12 collapse-close">
               <button
                 type="button"
                 class="navbar-toggler"
-                (click)="isCollapsed = !isCollapsed"
                 [attr.aria-expanded]="!isCollapsed"
                 aria-controls="navbar_global"
               >

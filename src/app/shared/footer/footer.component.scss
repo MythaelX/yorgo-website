@@ -2,7 +2,7 @@
   border-top: 4px solid #3d92c2;
   padding: 0.5rem;
   color: #3d92c2;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: bold;
   border-bottom: 4px solid #3d92c2;
@@ -11,16 +11,15 @@
 .img-store {
   width: 80%;
   padding: 2rem;
+  margin-bottom: -20px;
 
   @media (max-width: 991px) {
     width: 60%;
     padding: 1rem;
-    margin-bottom: 0px;
   }
   @media (max-width: 500px) {
-    width: 100%;
+    width: 90%;
     padding: 1rem;
-    margin-bottom: 0px;
   }
 }
 .f-left {
@@ -59,29 +58,10 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 710px;
+    top: 540px;
     height: 2000px;
     background: #3d92c2;
     transform: skew(0, 0deg);
-  }
-
-  @media (max-width: 991px) {
-    &:before {
-      top: 840px;
-    }
-  }
-
-  @media (max-width: 767px) {
-    &:before {
-      top: 780px;
-    }
-  }
-
-  @media (max-width: 575px) {
-    &:before {
-      top: 520px;
-      transform: skew(0, 0deg);
-    }
   }
 
   .container {
@@ -101,25 +81,15 @@ hr {
 }
 
 .footer .copyright {
-  font-size: 0.875rem;
-
-  @media (max-width: 991px) {
-    font-size: 0.76rem;
-  }
+  font-size: 1rem;
 
   @media (max-width: 767px) {
-    font-size: 0.9rem;
-    // font-size: 0.6rem;
     text-align: center;
-  }
-
-  @media (max-width: 403px) {
-    font-size: 0.7rem;
   }
 }
 
 .nav {
-  @media (max-width: 991px) {
+  @media (max-width: 1199px) {
     display: block;
     float: right;
   }

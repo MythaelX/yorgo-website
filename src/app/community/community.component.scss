@@ -1,3 +1,4 @@
+//position and padding, marging, ...
 .section-hero {
   @media (min-width: 768px) {
     min-height: 0;
@@ -6,22 +7,24 @@
 
 .section-lg {
   padding-bottom: 0;
+  @media (max-width: 500px) {
+    padding-top: 4.5rem;
+  }
 }
+
+.section-shaped .shape {
+  height: 98%;
+  @media (min-width: 410px) {
+    height: 100%;
+  }
+}
+
 .section {
   padding-bottom: 0;
 }
 
 .rotate-3 {
   transform: skew(0, -2.5deg);
-}
-
-.background-blue {
-  margin-top: -2px;
-  background-color: #3d92c2;
-}
-
-.fill-blue {
-  fill: #3d92c2;
 }
 
 .title {
@@ -34,13 +37,6 @@
   }
 }
 
-.img-size-1 {
-  width: 20%;
-  @media (min-width: 992px) {
-    width: 60%;
-  }
-}
-
 .p-t-60 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -50,59 +46,21 @@
 }
 
 .padding-section {
-  padding: 4rem;
+  padding: 2rem;
+  @media (max-width: 1200px) {
+    padding: 1rem;
+  }
 }
 
 .padding-section-b {
   padding-bottom: 4rem;
+  @media (max-width: 767px) {
+    padding-bottom: 2rem;
+  }
 }
 
 .padding-section-t-2 {
   padding-top: 2rem;
-}
-
-.up-annim :hover {
-  transition: all 0.15s ease;
-  transform: translateY(-20px);
-}
-
-.backgroundImage {
-  background-image: url("../../assets/img/brand/sport-4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 7rem;
-}
-
-.display-3 {
-  padding: 10px;
-  font-size: 1rem;
-  @media (min-width: 460px) {
-    font-size: 1.4rem;
-  }
-  @media (min-width: 1200px) {
-    font-size: 1.7rem;
-  }
-}
-
-.display-2 {
-  font-size: 1rem;
-  font-weight: bold;
-  line-height: 1.5;
-  @media (min-width: 460px) {
-    font-size: 1rem;
-  }
-
-  @media (min-width: 537px) {
-    font-size: 1.4rem;
-  }
-
-  @media (min-width: 768px) {
-    font-size: 1.9rem;
-  }
-
-  @media (min-width: 1200px) {
-    font-size: 2.7rem;
-  }
 }
 
 .m-t-6- {
@@ -118,24 +76,83 @@
   }
 }
 
+//background
+.background-blue {
+  margin-top: -2px;
+  background-color: #3d92c2;
+}
+
+.fill-blue {
+  fill: #3d92c2;
+}
+
+//image
+.img-size-1 {
+  width: 35%;
+  @media (min-width: 992px) {
+    width: 60%;
+  }
+}
+
+.backgroundImage {
+  background-image: url("../../assets/img/brand/sport-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
+
+//text
+
+.display-2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  @media (min-width: 460px) {
+    font-size: 1.3rem;
+  }
+
+  @media (min-width: 537px) {
+    font-size: 1.4rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.9rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 2rem;
+  }
+}
+.display-3 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: 1.2rem;
+  @media (min-width: 460px) {
+    font-size: 1.4rem;
+  }
+  @media (min-width: 1200px) {
+    font-size: 1.85rem;
+  }
+}
+
 h5 {
-  font-size: 0.75rem;
+  font-size: 1.3rem;
   @media (min-width: 410px) {
     font-size: 1.5rem;
   }
 }
 
-.section-shaped .shape {
-  height: 98%;
-  @media (min-width: 410px) {
-    height: 100%;
-  }
-}
-
+//shadow
 .shadow-2 {
   box-shadow: 0 5px 2px rgb(0 0 0 / 63%), 0 2px 10px rgb(0 0 0) !important;
 }
 
 .text-shadow {
   text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.753), 0 2px 10px rgba(0, 0, 0, 0.795);
+}
+
+//annim
+.up-annim :hover {
+  transition: all 0.15s ease;
+  transform: translateY(-20px);
 }

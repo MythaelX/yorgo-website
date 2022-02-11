@@ -1,8 +1,6 @@
-# [Argon Design System Angular](https://demos.creative-tim.com/argon-design-system-angular/?ref=adsa-github-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Argon%20Design%20is%20a%20Free%20Bootstrap%20and%20Angular%20Design%20Sysyem%20made%20using%20angular-cli%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/argon-design-system-angular%20%23angular%20%23angular-cli%20%23argon%20%23argondesign%20%23angular%20%23argonangular%20%23angulardesign%20%23bootstrap%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
+# [Argon Design System Angular](https://demos.creative-tim.com/yorgo/?ref=adsa-github-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Argon%20Design%20is%20a%20Free%20Bootstrap%20and%20Angular%20Design%20Sysyem%20made%20using%20angular-cli%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/yorgo%20%23angular%20%23angular-cli%20%23argon%20%23argondesign%20%23angular%20%23argonangular%20%23angulardesign%20%23bootstrap%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
 
-
-
- ![version](https://img.shields.io/badge/version-1.2.0-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-design-system-angular.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-design-system-angular/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-design-system-angular.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-design-system-angular/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.2.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/yorgo.svg?maxAge=2592000)](https://github.com/creativetimofficial/yorgo/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/yorgo.svg?maxAge=2592000)](https://github.com/creativetimofficial/yorgo/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 **Fully Coded Components**
 
@@ -12,67 +10,61 @@ Every element has multiple states for colors, styles, hover, focus, that you can
 
 **Complex Documentation**
 
-Each element is well presented in a very complex documentation. You can read more about the idea behind this [kit here](https://demos.creative-tim.com/argon-design-system-angular/documentation/tutorial?ref=adsa-github-readme). You can check the [components here](https://demos.creative-tim.com/argon-design-system-angular/documentation/alerts?ref=adsa-github-readme) and the [foundation here](https://demos.creative-tim.com/argon-design-system-angular/documentation/colors?ref=adsa-github-readme).
+Each element is well presented in a very complex documentation. You can read more about the idea behind this [kit here](https://demos.creative-tim.com/yorgo/documentation/tutorial?ref=adsa-github-readme). You can check the [components here](https://demos.creative-tim.com/yorgo/documentation/alerts?ref=adsa-github-readme) and the [foundation here](https://demos.creative-tim.com/yorgo/documentation/colors?ref=adsa-github-readme).
 
 **Example Pages**
 
 If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
 
-
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
+- [Versions](#versions)
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+- [Documentation](#documentation)
+- [File Structure](#file-structure)
+- [Browser Support](#browser-support)
+- [Resources](#resources)
+- [Reporting Issues](#reporting-issues)
+- [Licensing](#licensing)
+- [Useful Links](#useful-links)
 
 ## Versions
 
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/angular-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system-angular)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-argon-design-system)
+[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/argon-design-system)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/angular-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/yorgo)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/vue-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/vue-argon-design-system)
 
-
-
-| HTML | Angular | Vue  |
-| --- | --- | ---  |
-| [![Argon Design System HTML](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system?ref=adsa-github-readme)  | [![Argon Design System Angular](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/argon-design-system-angular.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-github-readme)  | [![Vue Argon Design System](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-design-system/vue-argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/vue-argon-design-system?ref=adsa-github-readme)
-
+| HTML                                                                                                                                                                                                                                  | Angular                                                                                                                                                                                        | Vue                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [![Argon Design System HTML](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system/argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/argon-design-system?ref=adsa-github-readme) | [![Argon Design System Angular](https://github.com/creativetimofficial/public-assets/blob/master/yorgo/yorgo.jpg?raw=true)](https://www.creative-tim.com/product/yorgo?ref=adsa-github-readme) | [![Vue Argon Design System](https://github.com/creativetimofficial/public-assets/blob/master/vue-argon-design-system/vue-argon-design-system.jpg?raw=true)](https://www.creative-tim.com/product/vue-argon-design-system?ref=adsa-github-readme) |
 
 ## Demo
 
-| Buttons | Inputs | Navbars  |
-| --- | --- | ---  |
-| [![Buttons](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/buttons.png?raw=true)](https://demos.creative-tim.com/argon-design-system-angular/home)  | [![Inputs](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/inputs.png?raw=true)](https://demos.creative-tim.com/argon-design-system-angular/home)  | [![Navbar](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/navbars.png?raw=true)](https://demos.creative-tim.com/argon-design-system-angular/home)  
+| Buttons                                                                                                                                              | Inputs                                                                                                                                             | Navbars                                                                                                                                             |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Buttons](https://github.com/creativetimofficial/public-assets/blob/master/yorgo/buttons.png?raw=true)](https://demos.creative-tim.com/yorgo/home) | [![Inputs](https://github.com/creativetimofficial/public-assets/blob/master/yorgo/inputs.png?raw=true)](https://demos.creative-tim.com/yorgo/home) | [![Navbar](https://github.com/creativetimofficial/public-assets/blob/master/yorgo/navbars.png?raw=true)](https://demos.creative-tim.com/yorgo/home) |
 
-| Login Page | Landing Page | Profile Page  | Register Page  |
-| --- | --- | ---  | ---  |
-| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-design-system-angular/login.png)](https://demos.creative-tim.com/argon-design-system-angular/login)  | [![Landing Page](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/landing.png?raw=true)](https://demos.creative-tim.com/argon-design-system-angular/landing)  | [![Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/profile.png?raw=true)](https://demos.creative-tim.com/argon-design-system-angular/user-profile)  | [![Register Page](https://github.com/creativetimofficial/public-assets/blob/master/argon-design-system-angular/register.png?raw=true)](https://demos.creative-tim.com/argon-design-system-angular/register)  
+| Login Page                                                                                                                                              | Landing Page                                                                                                                                                 | Profile Page                                                                                                                                                      | Register Page                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Login Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/yorgo/login.png)](https://demos.creative-tim.com/yorgo/login) | [![Landing Page](https://github.com/creativetimofficial/public-assets/blob/master/yorgo/landing.png?raw=true)](https://demos.creative-tim.com/yorgo/landing) | [![Profile Page](https://github.com/creativetimofficial/public-assets/blob/master/yorgo/profile.png?raw=true)](https://demos.creative-tim.com/yorgo/user-profile) | [![Register Page](https://github.com/creativetimofficial/public-assets/blob/master/yorgo/register.png?raw=true)](https://demos.creative-tim.com/yorgo/register) |
 
-[View More](https://demos.creative-tim.com/argon-design-system-angular/home)
-
-
+[View More](https://demos.creative-tim.com/yorgo/home)
 
 ## Quick start
 
-- [Download from Github](https://github.com/creativetimofficial/argon-design-system-angular/archive/master.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-github-readme).
-- Clone the repo: `git clone https://github.com/creativetimofficial/argon-design-system-angular.git`.
-
+- [Download from Github](https://github.com/creativetimofficial/yorgo/archive/master.zip).
+- [Download from Creative Tim](https://www.creative-tim.com/product/yorgo?ref=adsa-github-readme).
+- Clone the repo: `git clone https://github.com/creativetimofficial/yorgo.git`.
 
 ## Documentation
-The documentation for the Argon Design System Angular is hosted at our [website](https://demos.creative-tim.com/argon-design-system-angular/documentation/tutorial?ref=adsa-github-readme).
 
+The documentation for the Argon Design System Angular is hosted at our [website](https://demos.creative-tim.com/yorgo/documentation/tutorial?ref=adsa-github-readme).
 
 ## File Structure
+
 Within the download you'll find the following directories and files:
 
 ```
-argon-design-system-angular
+yorgo
 ├── CHANGELOG.md
 ├── ISSUES_TEMPLATE.md
 ├── LICENSE.md
@@ -214,22 +206,20 @@ argon-design-system-angular
 
 ```
 
-
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
 
 <img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64">
 
-
-
 ## Resources
-- Demo: <https://demos.creative-tim.com/argon-design-system-angular/home?ref=adsa-github-readme>
-- Download Page: <https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-github-readme>
-- Documentation: <https://demos.creative-tim.com/argon-design-system-angular/documentation/tutorial?ref=adsa-github-readme>
+
+- Demo: <https://demos.creative-tim.com/yorgo/home?ref=adsa-github-readme>
+- Download Page: <https://www.creative-tim.com/product/yorgo?ref=adsa-github-readme>
+- Documentation: <https://demos.creative-tim.com/yorgo/documentation/tutorial?ref=adsa-github-readme>
 - License Agreement: <https://www.creative-tim.com/license?ref=adsa-github-readme>
 - Support: <https://www.creative-tim.com/contact-us?ref=adsa-github-readme>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/argon-design-system-angular/issues?ref=adsa-github-readme)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/yorgo/issues?ref=adsa-github-readme)
 
 ## Reporting Issues
 
@@ -243,7 +233,7 @@ We use GitHub Issues as the official bug tracker for the Argon Design System Ang
 
 - Copyright 2019 Creative Tim (https://www.creative-tim.com/?ref=adsa-github-readme)
 
-- Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-angular/blob/master/LICENSE.md)
+- Licensed under MIT (https://github.com/creativetimofficial/yorgo/blob/master/LICENSE.md)
 
 ## Useful Links
 

@@ -47,3 +47,16 @@
 .headroom--unpinned {
   transform: translateY(0%);
 }
+
+.no-border {
+  border: none;
+  outline: none;
+}
+
+.navbar-brand img {
+  height: 90px;
+
+  @media (max-width: 500px) {
+    height: 60px;
+  }
+}

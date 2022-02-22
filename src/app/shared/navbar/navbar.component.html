@@ -6,7 +6,7 @@
     <a class="navbar-brand mr-lg-5" [routerLink]="['/accueil']">
       <img
         src="./assets/img/brand/YORGO_logo.png"
-        class="img-fluid rounded-circle shadow"
+        class="rounded-circle shadow"
       />
     </a>
     <button
@@ -26,25 +26,49 @@
       <ul class="navbar-nav">
         <li></li>
         <li [routerLink]="['/accueil']">
-          <a class="nav-link" role="button">
+          <a
+            class="nav-link click-pointer"
+            role="button"
+            [ngClass]="{
+              'nav-selected': isSameURL('/accueil') && !isCollapsed
+            }"
+          >
             <i class="fas fa-home d-lg-none"></i>
             <span class="nav-link-inner--text family">Accueil</span>
           </a>
         </li>
         <li [routerLink]="['/communaute']">
-          <a class="nav-link no-caret" role="button">
+          <a
+            class="nav-link no-caret click-pointer"
+            [ngClass]="{
+              'nav-selected': isSameURL('/communaute') && !isCollapsed
+            }"
+            role="button"
+          >
             <i class="fas fa-universal-access d-lg-none"></i>
             <span class="nav-link-inner--text family">Communauté</span>
           </a>
         </li>
         <li [routerLink]="['/qui-sommes-nous']">
-          <a class="nav-link no-caret" role="button">
+          <a
+            class="nav-link no-caret click-pointer"
+            [ngClass]="{
+              'nav-selected': isSameURL('/qui-sommes-nous') && !isCollapsed
+            }"
+            role="button"
+          >
             <i class="far fa-question-circle d-lg-none"></i>
             <span class="nav-link-inner--text family">Qui sommes nous ?</span>
           </a>
         </li>
         <li [routerLink]="['/contact']">
-          <a class="nav-link no-caret" role="button">
+          <a
+            class="nav-link no-caret click-pointer"
+            [ngClass]="{
+              'nav-selected': isSameURL('/contact') && !isCollapsed
+            }"
+            role="button"
+          >
             <i class="fas fa-envelope d-lg-none"></i>
             <span class="nav-link-inner--text family">Contact</span>
           </a>

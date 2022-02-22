@@ -44,5 +44,9 @@ export class NavbarComponent implements OnInit {
             return false;
         }
     }
+
+    isSameURL(route:string){
+        return this.router.url.startsWith(route);
+    }
     
 }

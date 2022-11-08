@@ -54,7 +54,7 @@ const RESOURCES = {
 "assets/lib/assets/images/tape-men-cinq.png": "edc98c4b91802bebf19df606590361f4",
 "assets/lib/assets/images/velo.png": "03abc60ba6ba47213410b4c2bf8f0681",
 "assets/lib/assets/images/YORGO_logo.png": "962d5e088031464dd6d42f6227da06e9",
-"assets/NOTICES": "3c6986e3a0ed9d2e277e01729c61b62a",
+"assets/NOTICES": "f806687209a9424a847f5c7434ad752c",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "4e20cb87b0d43808c49449ffd69b1a74",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "1f7cb220b3f5309130bd6d9ad87e0fc0",
@@ -65,9 +65,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "e3e6f796503d4d03be7677aa84b142a0",
-"/": "e3e6f796503d4d03be7677aa84b142a0",
-"main.dart.js": "2456edab33b637a00698213c7e2d8a83",
+"index.html": "cd1bdee68389e6245685460b0807d708",
+"/": "cd1bdee68389e6245685460b0807d708",
+"main.dart.js": "f93483904cafb029542afe4335eb7233",
 "manifest.json": "24f316c004cdf10b4918a3afa4212719",
 "version.json": "5a6270750d34c4f199cb7e291ecadec7"
 };

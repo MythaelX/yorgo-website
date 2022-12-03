@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "1d0dff8e61ab193077ee5e06630fcff7",
+  "assets/AssetManifest.json": "438d0a745256a99c36737e6fe6844d44",
 "assets/FontManifest.json": "8e6ca49227e0ce52bde42229dcad2a1a",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/lib/assets/fonts/VisbyRoundCF/VisbyRoundCF-Bold.otf": "004b0e65092c105c22987f4a731ea4c0",
@@ -51,6 +51,7 @@ const RESOURCES = {
 "assets/lib/assets/images/sport-6.jpg": "c9ef999395abce1e9a3dde66cd9e53a0",
 "assets/lib/assets/images/sport-7.jpg": "a87a2c27f98136d6faafe08647a90f18",
 "assets/lib/assets/images/sport.jpg": "ac92f5a12bb598a8cc0ea0df50c86c45",
+"assets/lib/assets/images/Subtract.svg": "686d6d19c4269273f3ab57c93bef5b81",
 "assets/lib/assets/images/tape-men-cinq.png": "edc98c4b91802bebf19df606590361f4",
 "assets/lib/assets/images/velo.png": "03abc60ba6ba47213410b4c2bf8f0681",
 "assets/lib/assets/images/YORGO_logo.png": "962d5e088031464dd6d42f6227da06e9",
@@ -60,14 +61,19 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "1f7cb220b3f5309130bd6d9ad87e0fc0",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "26f5af2d93473531f82ef5060f9c6d45",
 "assets/shaders/ink_sparkle.frag": "6333b551ea27fd9d8e1271e92def26a9",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "cd1bdee68389e6245685460b0807d708",
-"/": "cd1bdee68389e6245685460b0807d708",
-"main.dart.js": "f93483904cafb029542afe4335eb7233",
+"index.html": "55efc91a20502a0e6a28270ea641ccdf",
+"/": "55efc91a20502a0e6a28270ea641ccdf",
+"main.dart.js": "a5eb406fe2ef38d003fba4dd5d43d14c",
 "manifest.json": "24f316c004cdf10b4918a3afa4212719",
 "version.json": "5a6270750d34c4f199cb7e291ecadec7"
 };

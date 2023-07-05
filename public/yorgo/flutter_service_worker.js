@@ -5,7 +5,6 @@ const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"assets/AssetManifest.bin": "23e007d25ca2d805042d59de42320e79",
 "assets/AssetManifest.json": "fb6b5245e4a0eecf7eacbc2712d6f9b0",
-"assets/AssetManifest.smcbin": "d263dbef44f2fc452c6472ff61a1d4df",
 "assets/FontManifest.json": "8e6ca49227e0ce52bde42229dcad2a1a",
 "assets/fonts/MaterialIcons-Regular.otf": "41fdbdcd390cc6120f064a01c90770ca",
 "assets/lib/assets/fonts/VisbyRoundCF/VisbyRoundCF-Bold.otf": "004b0e65092c105c22987f4a731ea4c0",
@@ -69,8 +68,6 @@ const RESOURCES = {"assets/AssetManifest.bin": "23e007d25ca2d805042d59de42320e79
 "canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
 "canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
 "canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
-"canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
-"canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
 "canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
 "canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
 "canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
@@ -80,11 +77,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "23e007d25ca2d805042d59de42320e79
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "b54eb26b9697b9de3b6b0c0f3447fff7",
-"/": "b54eb26b9697b9de3b6b0c0f3447fff7",
-"main.dart.js": "53d253a317ca72ada3f8a3a2e7e87577",
+"index.html": "6d0f9ce14b410eb6199b858e2d9b2f00",
+"/": "6d0f9ce14b410eb6199b858e2d9b2f00",
+"main.dart.js": "e574a2a25b4e5eca298c303711c933fd",
 "manifest.json": "24f316c004cdf10b4918a3afa4212719",
-"version.json": "c6d0accaa7f3484d3ffb72b317da1ad5"};
+"version.json": "5f5b9ce08c0931c2eb877d3175869ff4"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",

@@ -1,11 +1,11 @@
 {
-    "name": "yorgo_web",
-    "short_name": "yorgo_web",
+    "name": "Yorgo web",
+    "short_name": "Yorgo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "YORGO website",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

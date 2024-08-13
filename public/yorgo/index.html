@@ -1,68 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-    <base href="/" />
-
     <meta charset="UTF-8" />
-    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="YORGO est une application de sport complète, conçue pour vous aider à atteindre vos objectifs sportifs. Avec une variété d'entraînements et d'exercices, YORGO vous accompagne dans votre parcours de remise en forme. Suivez des programmes personnalisés, mesurez vos performances, suivez votre progression et restez motivé grâce à des défis et des récompenses. Que vous soyez débutant ou athlète confirmé, YORGO est là pour vous aider à repousser vos limites et à vous sentir en forme. Téléchargez-la maintenant pour révolutionner votre routine sportive avec YORGO ! copyright SAS ASARUS"
+      content="YORGO est une application de sport complète, conçue pour vous aider à atteindre vos objectifs sportifs. Téléchargez-la maintenant pour révolutionner votre routine sportive avec YORGO !"
     />
     <meta
-      name="facebook-domain-verification"
-      content="1ikmridy8psx41ufdkiv5q8z04x966"
+      name="keywords"
+      content="YORGO, sport, entraînement, remise en forme, fitness, programmes personnalisés, défis sportifs, application, mobile, course, vélo"
     />
-
-    <!-- iOS meta tags & icons -->
+    <meta
+      property="og:title"
+      content="YORGO - Votre Application de Sport Complète"
+    />
+    <meta
+      property="og:description"
+      content="YORGO est une application de sport conçue pour vous aider à atteindre vos objectifs sportifs avec des entraînements variés, des programmes personnalisés et plus encore."
+    />
+    <meta property="og:image" content="icons/Icon-192.png" />
+    <meta property="og:url" content="https://votre-domaine.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="YORGO - Votre Application de Sport Complète"
+    />
+    <meta
+      name="twitter:description"
+      content="YORGO est une application de sport conçue pour vous aider à atteindre vos objectifs sportifs avec des entraînements variés, des programmes personnalisés et plus encore."
+    />
+    <meta name="twitter:image" content="icons/Icon-192.png" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="yorgo" />
-    <link rel="apple-touch-icon" href="icons/Icon-192.png" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png" />
-
-    <title>yorgo</title>
+    <link rel="apple-touch-icon" sizes="192x192" href="icons/Icon-192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="manifest.json" />
-
-    <script>
-      // The value below is injected by flutter build, do not touch.
-      const serviceWorkerVersion = "3132775010";
-    </script>
-    <!-- This script adds the flutter initialization JS code -->
-    <script src="flutter.js" defer></script>
+    <title>YORGO - Votre Application de Sport Complète</title>
+    <base href="/" />
   </head>
   <body>
-    <script>
-      window.addEventListener("load", function (ev) {
-        // Download main.dart.js
-        _flutter.loader
-          .loadEntrypoint({
-            serviceWorker: {
-              serviceWorkerVersion: serviceWorkerVersion,
-            },
-          })
-          .then(function (engineInitializer) {
-            return engineInitializer.initializeEngine();
-          })
-          .then(function (appRunner) {
-            return appRunner.runApp();
-          });
-      });
-    </script>
+    <script src="flutter_bootstrap.js" async defer></script>
   </body>
 </html>
